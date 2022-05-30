@@ -54,11 +54,11 @@ export default {
 				}
 			})
 		}),
-		// postcss(
-		// 	{
-		// 		extract: "bundle.css"
-		// 	}
-		// ),
+		postcss(
+			{
+				extract: "bundle.css"
+			}
+		),
 		routify({
 			dynamicImports : true,
 			routifyDir: ".routify",
